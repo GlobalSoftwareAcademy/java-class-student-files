@@ -1,0 +1,23 @@
+open the newly installed Eclipse-STS-4 Java Editor
+Create a new Java Project:
+   go to: File >> New >> Project >> Java >> Java Project
+   This should open the pop-up window, 
+      enter Project Name: MyFirstJavaProgram
+
+Right-click on the new project: 
+   "MyFirstJavaProgram"
+select import >> General >> File System >> Next:
+   paste in the full-path of the downloaded java-example-project folder:
+      C:\global-software-academy\MyFirstJavaProgram\
+   check the check-box to the left of "MyFirstJavaProgram"
+   click on Finish
+double-click on the project "MyFirstJavaProgram"
+   open the "src" folder
+   open the folder: com.GlobalSoftwareAcademy
+   double-click on the file: HelloJava.java
+      the java file should now be opened in the Eclipse editor
+   >> right click on the file: HelloJava.java
+      select "Run-As" >> Java Application
+You should now see the following message displayed, in the eclipse output-console:
+   "Hello Java!"
+ 
